@@ -12,7 +12,7 @@ jobs:
         run: |
           node -v
           npm -v
-          javac -v
+          javac --version
       - name: python Command
         run: |
           import platform
